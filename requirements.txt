@@ -23,5 +23,5 @@ urllib3==1.26.8
 yarl==1.7.2
 PyAudio==0.2.11
 python-dotenv==0.17.0
-ZaloTTS==0.0.3
+ZaloTTS
 flask
