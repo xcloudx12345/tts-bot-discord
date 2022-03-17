@@ -37,4 +37,4 @@ if __name__ == '__main__':
     for extension in initial_extensions_events:  # load events
         client.load_extension(extension)
 
-    client.run(TOKEN)  # run the bot
+    client.run(process.env.TOKEN)  # run the bot
