@@ -13,9 +13,9 @@ class Help(commands.Cog):
         self.embedColourB = int(self.settings['DEFAULT']['embedColour.b'])
 
     @commands.command(name='help', 
-                    description='Shows you this message.')
+                    description='Hiện cái menu này nè.')
     async def help(self, ctx):
-            embed=discord.Embed(colour=discord.Color.from_rgb(self.embedColourR,self.embedColourG,self.embedColourB), title="All commands")
+            embed=discord.Embed(colour=discord.Color.from_rgb(self.embedColourR,self.embedColourG,self.embedColourB), title="Lệnh bot")
             embed.set_thumbnail(url=self.client.user.avatar_url)
 
             for command in self.client.commands:
